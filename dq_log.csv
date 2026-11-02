@@ -1,0 +1,13 @@
+source,issue,rows,action
+Adjust,purchase_revenue = d0_purchase_revenue in all rows,102794,Not used; asked client
+Adjust,"spend, clicks, impressions = 0 in all rows",102794,Meta cost from Meta file; Google cost N/A
+Adjust,Rows before Jun 1 (Jan only; Feb-May missing),12752,Excluded from comparison window
+Merged,Installs after Aug 1 lack full D30 window,10948,D30 ROAS on mature cohorts only
+Adjust,Meta installs outside campaign target market,6559,Assigned to campaign market (198 installs)
+Meta,Campaign name contains both IOS and AND,797,OS taken from Adjust for same campaign ID
+Adjust,"'Expired Attributions', no campaign ID",229,Removed (0 installs)
+Meta,Country 'U.S.',145,Standardised to US
+Adjust,Exact duplicate rows,33,Removed
+Meta,Country 'unknown',33,Filled from campaign name ($1.25 spend)
+Adjust,D30 revenue below D0,19,"Kept, flagged as possible refunds"
+Adjust,OS 'android-tv',2,Grouped into Android
