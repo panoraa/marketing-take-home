@@ -80,7 +80,7 @@ Two campaigns share the "Scale" profile, and one of them, Subscribe, was switche
 | US Android | $137.0K | 48,943 | $2.80 | 121% | 243% |
 | US iOS | $40.3K | 21,565 | $1.87 | 78% | 173% |
 
-- The Android vs iOS comparison has to be read within the US. All iOS spend is in the US, while Android also includes Canada and Australia. Comparing within the US removes that mix effect (a Simpson's paradox check), and the gap holds: iOS users are 33% cheaper to acquire but return 70 points less D30 ROAS. Part of this gap may be SKAdNetwork installs that Adjust cannot attribute.
+- The Android vs iOS comparison has to be read within the US. All iOS spend is in the US, while Android also includes Canada and Australia. Comparing within the US removes that mix effect (a Simpson's paradox check), and the gap holds: iOS users are 33% cheaper to acquire but return 70 points less D30 ROAS.The client confirmed that iOS attribution mixes consented users with probabilistic MMP attribution, so iOS ROAS carries more measurement uncertainty than Android and should be read as directional.
 - Australia was the cheapest market but not the most profitable. It had the lowest CPI ($0.67) but also the lowest purchase rate (3%), and it still returned 177% on D30. It was switched off on Jul 28 at only $3K spend, so it was never tested at scale.
 
 ## 4. Purchases and revenue
